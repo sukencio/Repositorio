@@ -1182,6 +1182,7 @@ BEGIN
 END;
 /
 
+--Paquetes
 CREATE OR REPLACE PACKAGE Cliente_Package AS
     PROCEDURE CrearCliente(
         p_nombre VARCHAR2,
